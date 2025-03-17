@@ -5,13 +5,28 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Figtree', 'sans-serif';
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #F4D04E;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #F4D04E;
+    cursor: pointer;
 }
 
 .blog__container.container {
     width: 1440px;
     height: 960px;
     background-color: #F4D04E;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     align-items: center;
 }
@@ -129,7 +144,6 @@
     .blog__container.container {
         width: 375px;
         padding: 156px 24px 155px 24px;
-        overflow-x: hidden;
     }
 
     .blog__card {
