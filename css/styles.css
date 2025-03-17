@@ -129,6 +129,7 @@
     .blog__container.container {
         width: 375px;
         padding: 156px 24px 155px 24px;
+        overflow-x: hidden;
     }
 
     .blog__card {
